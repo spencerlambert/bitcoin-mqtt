@@ -1,0 +1,29 @@
+{
+  "name": "bitcoin-mqtt",
+  "version": "0.0.1",
+  "description": "A service connecting to a Bitcoin Node ZeroMQ publish, relaying TX data to a MQTT broker.",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Spencer Lambert <spence@iozeta.com>",
+  "main": "index.js",
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "mqtt",
+    "cryptocurrency",
+    "blockchain",
+    "payment"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencerlambert/bitcoin-mqtt.git"
+  },
+  "dependencies": {
+    "zeromq": "4.6.0",
+    "bitcoincashjs": "0.1.10",
+    "request": "2.87.0",
+    "redis": "2.8.0"
+  },
+  "license": "TBA"
+}
